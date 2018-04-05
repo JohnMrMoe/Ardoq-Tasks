@@ -6,7 +6,7 @@ warnings.filterwarnings("ignore")#I AM SO SORRY ABOUT THIS LINE
 # Create the connection to the wit.ai
 client = Wit('7WVT67PRB5PVRNOQKXZQBTA5IC7M46HO')
 
-debug = True
+debug = False
 
 #creating seperate arrays, accesible through a common list log
 user = 'User'
