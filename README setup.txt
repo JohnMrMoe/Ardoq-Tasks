@@ -1,3 +1,15 @@
+The Task1.scm program:
+
+Requires:
+  Any software capable of running Scheme files.
+  The university standard is DrRacket (free online).
+
+  Inside Dr.Racket it can be run (while open) with
+  ctrl + r.
+
+  I chose this since the task last year was in closjure,
+  scheme being another dialect of the lisp group.
+
 The WikiFriend.py program:
 
 Requires:
@@ -22,6 +34,10 @@ Python
   as it is a python program, it needs to be run through python.
   Should be as easy as:
   > python WikiFriend.py
+
+Exiting the program:
+  Telling the WikiFriend "goodbye", will make it print a
+  short goodbye message, before terminating itself.
 
 If any other errors appeared, please contact me.
 
