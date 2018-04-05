@@ -6,7 +6,7 @@ such I add some oversight over the remainder of the project here:
   
 #####  1. The Assigment.
 
-The Ardoq assigment included two tasks. In this submission one can find the answers to task 1, and task 2c.
+> The Ardoq assigment included two tasks. In this submission one can find the answers to task 1, and task 2c.
   
 #####  2. Task 1
 
