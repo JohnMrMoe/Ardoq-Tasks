@@ -104,9 +104,12 @@ def src(ws, plus):
     # This method makes a search, it will not print out any information about
     # each article, but will attempt to find them at the very least.
     w = wiki.search(ws)
-    p['fl']('I found the following articles')
-    for e in w:
-        p['fl']('\t* ' + str(e))
+    if len(w) is not 0:
+        p['fl']('I found the following articles')
+        for e in w:
+            p['fl']('\t* ' + str(e))
+    else:
+        p['fl']('I am sorry, but I found nothing.')
 def exp(ws, plus):
     # This method makes a singular search, being very specific
     # It will start reading, prompting an inquiry if the user
@@ -172,7 +175,8 @@ def dny(ws, plus):
 def cnf(ws, plus):
     # This method is a confirmation, reffering backwards to the last prompts
     fireMemory()
-
+def thnx(ws, plus):
+    p['fl']('You are most welcome.')
 def noIntent(ws, plus):
     #Handles it if the intent is not that easy to discern
     if 'greetings' in plus:
@@ -188,6 +192,7 @@ handle_intent = {
     'goodbye'   : bye,
     'deny'      : dny,
     'confirm'   : cnf,
+    'thanks'    : thnx,
     'None'      : noIntent
 }
 
